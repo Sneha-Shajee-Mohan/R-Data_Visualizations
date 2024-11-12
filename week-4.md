@@ -93,21 +93,21 @@ df1_summary <- df_1 |>
 df1_summary
 ```
 
-    ## # A tibble: 82 × 4
-    ## # Groups:   year_of_mission [55]
+    ## # A tibble: 80 × 4
+    ## # Groups:   year_of_mission [57]
     ##    year_of_mission sex   total_missions mean_missions
     ##              <dbl> <chr>          <int>         <dbl>
-    ##  1            1962 male               2          1   
-    ##  2            1964 male               1          1   
-    ##  3            1965 male               6          2.67
-    ##  4            1966 male               4          3.5 
-    ##  5            1968 male               3          1   
-    ##  6            1969 male               6          2.67
-    ##  7            1970 male               6          2.83
-    ##  8            1971 male               8          1.38
-    ##  9            1972 male               2          2   
-    ## 10            1973 male               7          2.14
-    ## # ℹ 72 more rows
+    ##  1            1962 male               1          2   
+    ##  2            1963 male               1          2   
+    ##  3            1964 male               2          1.5 
+    ##  4            1965 male               4          3.25
+    ##  5            1966 male               7          3.71
+    ##  6            1967 male               1          2   
+    ##  7            1968 male               2          3   
+    ##  8            1969 male              17          2.35
+    ##  9            1970 male               1          4   
+    ## 10            1971 male               6          1.33
+    ## # ℹ 70 more rows
 
 ``` r
 df2_summary <- df_2 |>
@@ -125,21 +125,21 @@ df2_summary <- df_2 |>
 df2_summary
 ```
 
-    ## # A tibble: 85 × 4
-    ## # Groups:   year_of_mission [57]
-    ##    year_of_mission sex    total_missions mean_missions
-    ##              <dbl> <chr>           <int>         <dbl>
-    ##  1            1961 male                1          1   
-    ##  2            1962 male                2          2.5 
-    ##  3            1963 female              2          1   
-    ##  4            1965 male                5          1.8 
-    ##  5            1966 male                1          4   
-    ##  6            1967 male                1          2   
-    ##  7            1968 male                4          1.75
-    ##  8            1969 male               10          2.3 
-    ##  9            1971 male                7          2.14
-    ## 10            1972 male                2          1   
-    ## # ℹ 75 more rows
+    ## # A tibble: 82 × 4
+    ## # Groups:   year_of_mission [58]
+    ##    year_of_mission sex   total_missions mean_missions
+    ##              <dbl> <chr>          <int>         <dbl>
+    ##  1            1962 male               4          1.75
+    ##  2            1963 male               1          2   
+    ##  3            1964 male               3          1   
+    ##  4            1965 male               7          2.43
+    ##  5            1966 male               3          3.67
+    ##  6            1967 male               2          2   
+    ##  7            1968 male               2          1   
+    ##  8            1969 male              13          2.62
+    ##  9            1970 male               2          2.5 
+    ## 10            1971 male               6          1.5 
+    ## # ℹ 72 more rows
 
 ``` r
 df3_summary <- df_3 |>
@@ -157,21 +157,21 @@ df3_summary <- df_3 |>
 df3_summary
 ```
 
-    ## # A tibble: 87 × 4
-    ## # Groups:   year_of_mission [59]
-    ##    year_of_mission sex    total_missions mean_missions
-    ##              <dbl> <chr>           <int>         <dbl>
-    ##  1            1961 male                1          1   
-    ##  2            1962 male                1          2   
-    ##  3            1963 female              1          1   
-    ##  4            1963 male                1          2   
-    ##  5            1964 male                3          1   
-    ##  6            1965 male                7          3.14
-    ##  7            1966 male                3          3.33
-    ##  8            1967 male                1          2   
-    ##  9            1968 male                1          1   
-    ## 10            1969 male               11          2.82
-    ## # ℹ 77 more rows
+    ## # A tibble: 81 × 4
+    ## # Groups:   year_of_mission [57]
+    ##    year_of_mission sex   total_missions mean_missions
+    ##              <dbl> <chr>          <int>         <dbl>
+    ##  1            1962 male               5          2.2 
+    ##  2            1963 male               1          3   
+    ##  3            1964 male               2          1   
+    ##  4            1965 male               2          2   
+    ##  5            1966 male               8          3.12
+    ##  6            1967 male               2          2   
+    ##  7            1968 male               5          1.6 
+    ##  8            1969 male              11          2.27
+    ##  9            1970 male               2          1   
+    ## 10            1971 male               6          1.33
+    ## # ℹ 71 more rows
 
 ``` r
 df4_summary <- df_4 |>
@@ -189,21 +189,21 @@ df4_summary <- df_4 |>
 df4_summary
 ```
 
-    ## # A tibble: 80 × 4
-    ## # Groups:   year_of_mission [56]
-    ##    year_of_mission sex   total_missions mean_missions
-    ##              <dbl> <chr>          <int>         <dbl>
-    ##  1            1962 male               2          2.5 
-    ##  2            1964 male               2          1.5 
-    ##  3            1965 male               6          3   
-    ##  4            1966 male               7          2.86
-    ##  5            1968 male               1          1   
-    ##  6            1969 male               8          3.12
-    ##  7            1970 male               8          1.75
-    ##  8            1971 male               5          1.6 
-    ##  9            1972 male               1          1   
-    ## 10            1973 male               7          1.86
-    ## # ℹ 70 more rows
+    ## # A tibble: 84 × 4
+    ## # Groups:   year_of_mission [58]
+    ##    year_of_mission sex    total_missions mean_missions
+    ##              <dbl> <chr>           <int>         <dbl>
+    ##  1            1961 male                2          1   
+    ##  2            1962 male                2          2   
+    ##  3            1963 female              1          1   
+    ##  4            1963 male                3          2.33
+    ##  5            1964 male                1          1   
+    ##  6            1965 male                4          2.5 
+    ##  7            1966 male                1          2   
+    ##  8            1968 male                3          2   
+    ##  9            1969 male               14          2.57
+    ## 10            1970 male                3          3   
+    ## # ℹ 74 more rows
 
 ``` r
 df5_summary <- df_5 |>
@@ -221,21 +221,21 @@ df5_summary <- df_5 |>
 df5_summary
 ```
 
-    ## # A tibble: 80 × 4
+    ## # A tibble: 84 × 4
     ## # Groups:   year_of_mission [57]
     ##    year_of_mission sex   total_missions mean_missions
     ##              <dbl> <chr>          <int>         <dbl>
-    ##  1            1962 male               2          1.5 
-    ##  2            1963 male               2          3   
-    ##  3            1964 male               2          1.5 
-    ##  4            1965 male               6          3.17
-    ##  5            1966 male               4          3   
-    ##  6            1967 male               1          2   
-    ##  7            1968 male               5          1.6 
-    ##  8            1969 male               6          2.33
-    ##  9            1970 male               1          1   
-    ## 10            1971 male               4          2.75
-    ## # ℹ 70 more rows
+    ##  1            1961 male               1          1   
+    ##  2            1962 male               3          2   
+    ##  3            1963 male               2          2   
+    ##  4            1964 male               1          2   
+    ##  5            1965 male               5          2.4 
+    ##  6            1966 male               3          3.33
+    ##  7            1968 male               2          2   
+    ##  8            1969 male              10          2.6 
+    ##  9            1971 male               4          2.5 
+    ## 10            1972 male               5          3.8 
+    ## # ℹ 74 more rows
 
 **Using Line graph to plot the total number of missions for each gender
 category in each year.**
